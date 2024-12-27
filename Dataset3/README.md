@@ -1,7 +1,7 @@
 # File and Folder introduction of Dataset3
 
 ## Transactions
-The folder "Transactions" includes 11,964 contract transactions in Dataset_3.
+The folder "Transactions" includes 11,964 contract transactions (2,762 benign and 9,202 malicious) in Dataset_3. Among them, the file "tx_labels.json" illustrates their labels, where 0 is safe and 1 is unsafe.
 
 ## Metrics
 
